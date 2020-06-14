@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+     <group android:checkableBehavior="single">
+
+          <item android:id="@+id/pokemonList"
+              android:title="Pokemons"
+
+              />
+         <item android:id="@+id/itemsList"
+
+             android:title="Items"
+             />
+         <item android:id="@+id/locationList"
+             android:title="Locations"
+
+             />
+         <item android:id="@+id/typeList"
+             android:title="Types"
+
+             />
+         <item android:id="@+id/regionList"
+             android:title="Regions"
+             />
+         <item android:id="@+id/favouritesList"
+             android:title="Favourites"
+             />
+
+
+
+
+     </group>
+</menu>
